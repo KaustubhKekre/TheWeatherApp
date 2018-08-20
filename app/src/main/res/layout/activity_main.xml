@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#daedfe">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Weather at your Current Location"
+    android:theme="@style/main"
+    android:textColor="#003366"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/currentimg"
+        android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#0000a8"
+                android:id="@+id/weather"
+                android:layout_margin="2dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#0000a8"
+                android:layout_margin="2dp"
+                android:id="@+id/temperature"
+                android:textStyle="bold"/>
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#0000a8"
+                android:id="@+id/humidity"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Mumbai"
+        android:theme="@style/main"
+        android:background="@drawable/mumbai"
+        android:id="@+id/mumbai"
+        android:textColor=" #ff6700"
+        android:layout_margin="5dp"
+
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:theme="@style/main"
+        android:text="New York"
+        android:id="@+id/new_york"
+        android:textColor="#ffe200"
+        android:layout_margin="5dp"
+        android:background="@drawable/newyork"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:theme="@style/main"
+        android:text="Dubai"
+        android:layout_margin="5dp"
+        android:id="@+id/dubai"
+        android:textColor="#228b22"
+        android:background="@drawable/dubai"
+        />
+
+</LinearLayout>

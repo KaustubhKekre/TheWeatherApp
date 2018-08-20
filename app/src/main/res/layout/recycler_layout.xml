@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="6dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="9dp"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="date"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weather"
+            android:text="weather"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempmax"
+            android:text="tempmax"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <TextView
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempmin"
+            android:text="tempmin"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="humidity"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
